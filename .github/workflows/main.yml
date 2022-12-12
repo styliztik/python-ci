@@ -19,5 +19,7 @@ jobs:
           python-version: 3.9
           
       - name: Run
-        run: python main.py
+        run: |
+          cd src
+          python main.py
   
